@@ -1,0 +1,21 @@
+Vector in c++
+
+vector to komtener na dane, inaczej możemy powiedzieć dynamiczna tablica.
+mamy dostęp do każdego el. tej tablicy i możemy zwiększać tą tablicę w dowolnym
+momencie.
+
+funkcje które nas interesują w nauce o vectorze
+push_back(); dodaje na koniec tablicy nowy el.
+insert(); dodaje el do tablicy we wskazane miejsce
+begin(); wskazuje pierwszy el. dynamicznej tablicy
+end(); wskazuje na koniec dynamicznej tablicy
+size(); zwraca ilość el. dodanych z tablic
+
+Iterator dynamicznej tablicy
+Iterator - wskaźnik wskazujący na określony el. tablicy
+można go edytować oraz za jego pomocą odwoływać się do określonego el. tablicy
+
+Używamy kiedy wkazujemy na określony el. tablicy
+
+Utwórz dynamiczną tablicę o nazwie księgowość. ta tablica przechowuje foty wpłat klientów. napisz na konsole za pomocą a) wskażników
+b) wektora be iteratora c) z iteratorem i wektorem, które obliczają sumę wpłat, wpłate min, max oraz wyznaczają  średnią
